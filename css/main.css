@@ -152,3 +152,16 @@ hr{
     color: #707070;
     background-color: #D9D9D9;
 }
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: #FF5959
+}
