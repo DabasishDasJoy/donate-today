@@ -114,3 +114,41 @@ hr{
 }
 
 /* -------------------Get My Updates------ */
+.subscribe{  
+    width: 60%;
+    margin: auto;
+    padding: 90px 20px;
+    border-radius: 10px;
+    background-color: #FFF4D6;
+}
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+}
+
+#input-email, #btn-subscribe{
+    display: inline-block;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#btn-subscribe{
+    background-color:#FF5959;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 14px;
+    color: #fafafa;
+    width: 130px;
+    height: 45px;
+}
+#input-email{
+    width: 250px;
+    height: 43px;
+    color: #AA9F9F;
+    padding-left: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #707070;
+    background-color: #D9D9D9;
+}
