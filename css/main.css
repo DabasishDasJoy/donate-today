@@ -24,10 +24,16 @@ section{
     padding-right: 100px;
 }
 .top-banner{
-    background-image: url("../images/donation1.jpg");
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.334), 
+        rgba(0, 0, 0, 0.782)
+      ), url("../images/Cyclone2.jpg");
+      background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
+    
 }
 .top-banner p{
     color: #ffffff;
@@ -36,6 +42,7 @@ h1{
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     font-weight:900px;
+    margin-bottom: 5px;
 }
 p{
     font-family: 'Poppins', sans-serif;
