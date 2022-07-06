@@ -112,6 +112,26 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-weight: 500px;
 }
+/* -------------blog------------------ */
+.blog-wrapper{
+    background-color: #fafafa;
+    width: 90%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.blog-item{
+    width: 50%;
+}
+
+.blog-image{
+    padding-left: 10px;
+    width: 80%;
+}
+
+.blog-image img{
+    width: 100%;
+    border-radius: 5px;
+}
 
 /* -------------------Get My Updates------ */
 .subscribe{  
