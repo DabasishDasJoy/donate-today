@@ -1,61 +1,67 @@
-body{
+body {
     margin: 0;
 }
-section{
+
+section {
     margin-bottom: 100px;
 }
 
 /* ---------top-banner-section------ */
 
-.flexible-container{
+.flexible-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.heading{
+
+.heading {
     width: 60%;
     text-align: center;
 }
-.heading p{
+
+.heading p {
     padding-left: 100px;
     padding-right: 100px;
 }
-.top-banner{
-    background-image:linear-gradient(
-        rgba(0, 0, 0, 0.334), 
-        rgba(0, 0, 0, 0.782)
-      ), url("../images/Cyclone2.jpg");
-      background-blend-mode: darken;
+
+.top-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.334),
+            rgba(0, 0, 0, 0.782)), url("../images/Cyclone2.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
+
 }
-.top-banner p{
+
+.top-banner p {
     color: #ffffff;
 }
-h1{
+
+h1 {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
-    font-weight:900px;
+    font-weight: 900px;
     margin-bottom: 5px;
 }
-p{
+
+p {
     font-family: 'Poppins', sans-serif;
     color: #707070;
     font-size: 18px;
 }
-.top-banner h1{
+
+.top-banner h1 {
     color: #ffffff;
     font-size: 70px;
 }
 
-.link-button{
+.link-button {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #FF5959;
     padding: 18px 25px;
     border-radius: 5px;
@@ -65,7 +71,7 @@ p{
 
 
 /* ---------Donate-Today-Section------ */
-.donation-amount{
+.donation-amount {
     margin: 30px;
     width: 150px;
     text-align: center;
@@ -75,25 +81,28 @@ p{
     border-radius: 5px;
 }
 
-.donation-amount h2{
+.donation-amount h2 {
     font-family: 'Inter', sans-serif;
     font-size: 35px;
     font-weight: bold;
     color: #707070;
 }
 
-#selected-amount{
+#selected-amount {
     border: 3px solid rgb(243, 49, 49);
     background-color: #ff07071a;
 }
-#color-red{
+
+#color-red {
     color: #FF5959;
 }
-hr{
+
+hr {
     width: 50%;
     background-color: #707070;
 }
-.input-with-no-border{
+
+.input-with-no-border {
     margin-top: 50px;
     border-style: none;
     font-size: 20px;
@@ -104,63 +113,65 @@ hr{
 
 
 /* ------------Donate Plan----- */
-.plan-items{
+.plan-items {
     background-color: antiquewhite;
     width: 20%;
-    margin:20px;
+    margin: 20px;
     padding: 20px 25px;
     border-radius: 5px;
 }
 
-.plan-items h2{
+.plan-items h2 {
     font-family: 'Poppins', sans-serif;
 }
 
-.plan-items img{
+.plan-items img {
     width: 100%;
     border-radius: 5px;
 }
 
-#food-donation{
+#food-donation {
     background-color: #4f9da635;
 }
-#shelter-donation{
+
+#shelter-donation {
     background-color: rgba(255, 192, 203, 0.444);
 }
 
-#education-donation{
+#education-donation {
     background-color: #FFF4D6;
 }
 
 
 /* -------------blog------------------ */
-.blog-wrapper{
+.blog-wrapper {
     background-color: #fafafa;
     width: 90%;
     border-radius: 5px;
 }
-.blog-item{
+
+.blog-item {
     width: 50%;
 }
 
-.blog-image{
+.blog-image {
     width: 70%;
 }
 
-.blog-image img{
+.blog-image img {
     width: 100%;
     border-radius: 5px;
 }
 
-.blog-text{
+.blog-text {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
 }
 
 /* -------------------Updates------ */
-.sign-up{
-    width: 60%;  
+.sign-up {
+    width: 60%;
     padding-top: 90px;
     padding-bottom: 90px;
     border-radius: 10px;
@@ -168,15 +179,16 @@ hr{
 }
 
 
-#input-email, #btn-subscribe{
+#input-email,
+#btn-subscribe {
     display: inline-block;
     border-style: none;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
 }
 
-#btn-subscribe{
-    background-color:#FF5959;
+#btn-subscribe {
+    background-color: #FF5959;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     font-size: 14px;
@@ -184,7 +196,8 @@ hr{
     width: 130px;
     height: 45px;
 }
-#input-email{
+
+#input-email {
     width: 250px;
     height: 43px;
     color: #AA9F9F;
@@ -197,7 +210,7 @@ hr{
 
 /* -----------------Footer--------------------- */
 
-footer{
+footer {
     margin-top: 100px;
     background-color: black;
     text-align: center;
@@ -205,13 +218,14 @@ footer{
     padding-bottom: 35px;
 }
 
-footer h1{
+footer h1 {
     font-family: 'Lobster', cursive;
     color: #FF5959;
     font-size: 35px;
     font-weight: 100;
 }
-footer p{
+
+footer p {
     font-size: 18px;
     color: gray;
 }
