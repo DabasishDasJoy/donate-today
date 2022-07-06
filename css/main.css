@@ -6,11 +6,8 @@ section{
 }
 
 /* ---------top-banner-section------ */
-.flexible-container{
-    display: flex;
-}
 
-.flexible-container-Centered{
+.flexible-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +46,7 @@ p{
     color: #707070;
     font-size: 18px;
 }
-#top-banner-title{
+.top-banner h1{
     color: #ffffff;
     font-size: 70px;
 }
@@ -66,9 +63,8 @@ p{
     margin-top: 15px;
 }
 
+
 /* ---------Donate-Today-Section------ */
-
-
 .donation-amount{
     margin: 30px;
     width: 150px;
@@ -97,14 +93,15 @@ hr{
     width: 50%;
     background-color: #707070;
 }
-#input-with-no-border{
+.input-with-no-border{
     margin-top: 50px;
     border-style: none;
     font-size: 20px;
     text-align: center;
-    width: 50%;
+    width: 20%;
     color: #707070;
 }
+
 
 /* ------------Our Donate Plan----- */
 .plan-items{
@@ -117,12 +114,11 @@ hr{
 
 .plan-items h2{
     font-family: 'Poppins', sans-serif;
-    font-weight: 500px;
 }
+
 .plan-items img{
     width: 100%;
     border-radius: 5px;
-    object-fit: 100%;
 }
 
 #food-donation{
@@ -135,6 +131,8 @@ hr{
 #education-donation{
     background-color: #FFF4D6;
 }
+
+
 /* -------------blog------------------ */
 .blog-wrapper{
     background-color: #fafafa;
@@ -148,7 +146,7 @@ hr{
 
 .blog-image{
     padding-left: 10px;
-    width: 80%;
+    width: 70%;
 }
 
 .blog-image img{
@@ -157,17 +155,14 @@ hr{
 }
 
 /* -------------------Get My Updates------ */
-.subscribe{  
+.sign-up{  
     width: 60%;
     margin: auto;
     padding: 90px 20px;
     border-radius: 10px;
     background-color: #FFF4D6;
 }
-.subscribe-form{
-    display: flex;
-    justify-content: center;
-}
+
 
 #input-email, #btn-subscribe{
     display: inline-block;
