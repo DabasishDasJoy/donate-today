@@ -111,13 +111,29 @@ hr{
     background-color: antiquewhite;
     width: 20%;
     margin:20px;
-    padding: 70px 25px;
+    padding: 20px 25px;
     border-radius: 5px;
 }
 
 .plan-items h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 500px;
+}
+.plan-items img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: 100%;
+}
+
+#food-donation{
+    background-color: #4f9da635;
+}
+#shelter-donation{
+    background-color: rgba(255, 192, 203, 0.444);
+}
+
+#education-donation{
+    background-color: #FFF4D6;
 }
 /* -------------blog------------------ */
 .blog-wrapper{
