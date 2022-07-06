@@ -137,7 +137,6 @@ hr{
 .blog-wrapper{
     background-color: #fafafa;
     width: 90%;
-    padding-left: 20px;
     border-radius: 5px;
 }
 .blog-item{
@@ -145,7 +144,6 @@ hr{
 }
 
 .blog-image{
-    padding-left: 20px;
     width: 70%;
 }
 
@@ -155,6 +153,8 @@ hr{
 }
 
 .blog-text{
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 10px;
 }
 
