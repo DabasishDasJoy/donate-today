@@ -145,7 +145,7 @@ hr{
 }
 
 .blog-image{
-    padding-left: 10px;
+    padding-left: 20px;
     width: 70%;
 }
 
@@ -154,11 +154,15 @@ hr{
     border-radius: 5px;
 }
 
+.blog-text{
+    padding-bottom: 10px;
+}
+
 /* -------------------Get My Updates------ */
-.sign-up{  
-    width: 60%;
-    margin: auto;
-    padding: 90px 20px;
+.sign-up{
+    width: 60%;  
+    padding-top: 90px;
+    padding-bottom: 90px;
     border-radius: 10px;
     background-color: #FFF4D6;
 }
